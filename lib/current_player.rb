@@ -12,7 +12,7 @@ end
 
 
 def current_player(board)
-if turn_count(board) == 5.odd?
+if 1.odd? == turn_count(board) 
   puts "X"
 else turn_count(board) == 4.even?
   puts "O"
