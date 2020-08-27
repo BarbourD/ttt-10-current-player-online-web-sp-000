@@ -1,7 +1,7 @@
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def turn_count(board)
 counter = 0
-if board == "X" 
+if board == "X"
   counter += 1
 else board == "O"
   counter += 1
