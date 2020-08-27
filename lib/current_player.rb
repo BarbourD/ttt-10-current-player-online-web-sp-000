@@ -6,7 +6,7 @@ counter = 0
 board1.each do |turn|
   counter += 1
 end
-end 
+end
 
 def current_player
 end
