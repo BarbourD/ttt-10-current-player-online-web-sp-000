@@ -3,11 +3,8 @@ board2 = ["O", " ", " ", " ", "X", " ", " ", "O", "X"]
 
 def turn_count(board1)
 counter = 0
-if board1 == "X"
+board1.each do |turn|
   counter += 1
-else board1 == "O"
-  counter += 1
-end
 end
 
 def current_player
