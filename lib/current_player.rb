@@ -12,11 +12,11 @@ end
 
 
 def current_player(board)
-X = 4 % 2
-O = 15 % 2
-if turn_count(board) == X
+x = 4 % 2
+o = 15 % 2
+if turn_count(board) == x
   puts "X"
-else turn_count(board) == O
+else turn_count(board) == o
   puts "O"
 end
 end
