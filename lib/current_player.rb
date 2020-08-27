@@ -1,5 +1,7 @@
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-def turn_count(board)
+board1 = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
+board2 = ["O", " ", " ", " ", "X", " ", " ", "O", "X"]
+
+def turn_count(board1)
 counter = 0
 if board == "X"
   counter += 1
