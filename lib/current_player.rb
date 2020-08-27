@@ -4,7 +4,7 @@ board2 = ["O", " ", " ", " ", "X", " ", " ", "O", "X"]
 def turn_count(board1)
 counter = 0
 board1.each do |turn|
-  "#{turn}" 
+  "#{turn}"
   counter += 1
 end
 end
