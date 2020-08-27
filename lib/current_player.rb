@@ -1,4 +1,4 @@
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = [" ", " ", " "]
 def turn_count(board)
 counter = 1
 board.each do |turns|
