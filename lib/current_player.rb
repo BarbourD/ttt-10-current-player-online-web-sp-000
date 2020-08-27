@@ -6,8 +6,6 @@ if board == "X"
 else board == "O"
   counter += 1
 end
-board.each do |turns|
-end
 end
 
 def current_player
