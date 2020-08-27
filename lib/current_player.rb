@@ -3,9 +3,9 @@ board2 = ["O", " ", " ", " ", "X", " ", " ", "O", "X"]
 
 def turn_count(board1)
 counter = 0
-if board == "X"
+if board1 == "X"
   counter += 1
-else board == "O"
+else board1 == "O"
   counter += 1
 end
 end
