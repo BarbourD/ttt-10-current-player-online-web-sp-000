@@ -7,7 +7,7 @@ board.each do |spaces|
     counter += 1
     end
 end
-
+end
 
 
 def current_player
